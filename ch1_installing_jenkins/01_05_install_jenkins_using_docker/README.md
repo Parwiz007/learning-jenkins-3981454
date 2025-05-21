@@ -4,10 +4,10 @@ The Docker Desktop application allows users to run Jenkins on a variety of opera
 
 This guide will take you through the process of setting up a Docker-based sandbox environment for Jenkins.
 
-*NOTE: Running Jenkins on Docker is more advanced than the other options.  If you are not already familiar with Docker, please consider one of the other options for running Jenkins.  If you want to get up to speed with installing and running Docker, please refer to the following courses from the LinkedIn Learning library:*
-
-- [Learning Docker](https://www.linkedin.com/learning/learning-docker-17236240/install-docker-on-windows-with-docker-desktop)
-- [Docker for Windows](https://www.linkedin.com/learning/docker-for-windows/why-you-need-docker-containers)
+> [!IMPORTANT]
+> Running Jenkins on Docker is more advanced than the other options.  If you are not already familiar with Docker, please consider one of the other options for running Jenkins.  If you want to get up to speed with installing and running Docker, please refer to the following courses from the LinkedIn Learning library:
+> - [Learning Docker](https://www.linkedin.com/learning/learning-docker-17236240/install-docker-on-windows-with-docker-desktop)
+> - [Docker for Windows](https://www.linkedin.com/learning/docker-for-windows/why-you-need-docker-containers)
 
 ## **Prerequisites**
 
