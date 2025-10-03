@@ -21,8 +21,8 @@ public class AppTest {
             // Call the main method
             App.main(new String[]{});
 
-            // Verify the output
-            assertEquals("Hello World!\n", outContent.toString());
+            // Verify the output (use platform-specific newline)
+            assertEquals("Hello World!" + System.lineSeparator(), outContent.toString());
         } finally {
             // Restore System.out
             System.setOut(originalOut);
@@ -38,8 +38,8 @@ public class AppTest {
             // Call the main method with arguments
             App.main(new String[]{"arg1", "arg2"});
 
-            // Verify the output (should be the same regardless of arguments)
-            assertEquals("Hello World!\n", outContent.toString());
+            // Verify the output (use platform-specific newline)
+            assertEquals("Hello World!" + System.lineSeparator(), outContent.toString());
         } finally {
             // Restore System.out
             System.setOut(originalOut);
